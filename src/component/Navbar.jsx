@@ -22,10 +22,11 @@ const Navbar = () => {
           <button className="text-base outline-white py-2 px-4">Log in</button>
         </ul>
       </nav>
-      <div className="flex flex-col gap-[2px] cursor-pointer lg:hidden">
-        <span className="flex w-[12px] h-[2px] bg-white"></span>
-        <span className="flex w-[12px] h-[2px] bg-white"></span>
-        <span className="flex w-[12px] h-[2px] bg-white"></span>
+      <div className="flex flex-col gap-[4px] cursor-pointer lg:hidden">
+        <span className="flex w-[20px] h-[4px] bg-white"></span>
+        <span className="flex w-[20px] h-[4px] bg-white"></span>
+        <span className="flex w-[20px] h-[4px] bg-white"></span>
+
       </div>
     </header>
   );
