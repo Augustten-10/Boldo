@@ -3,7 +3,7 @@ import { Logo } from "../icons/icon";
 const Navbar = () => {
   return (
     <header className="w-full flex justify-between items-center fixed px-24 py-10 bg-darkBlue max-sm:px-10 max-sm:py-6">
-      <div>
+      <div className="w-[163px] max-sm:w-[90px]">
         <a href="/">
           <Logo textColor="#fff" />
         </a>
@@ -19,14 +19,13 @@ const Navbar = () => {
           <li>
             <a href="/about">About</a>
           </li>
-          <button className="text-base outline-white py-2 px-4">Log in</button>
+          <button className="text-base outline-white py-2 px-4">Connect with Wallet</button>
         </ul>
       </nav>
       <div className="flex flex-col gap-[4px] cursor-pointer lg:hidden">
         <span className="flex w-[20px] h-[4px] bg-white"></span>
         <span className="flex w-[20px] h-[4px] bg-white"></span>
         <span className="flex w-[20px] h-[4px] bg-white"></span>
-
       </div>
     </header>
   );

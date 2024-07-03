@@ -1,8 +1,8 @@
 export const Logo = (otherProps) => {
   return (
     <svg
-      width="163"
-      height="42"
+      width="100%"
+      height="auto"
       viewBox="0 0 163 42"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

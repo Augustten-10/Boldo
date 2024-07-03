@@ -28,12 +28,16 @@ const Footer = () => {
     <div className="px-24 py-10 max-sm:px-10">
       <div className="flex justify-between px-24 max-sm:flex-col max-sm:px-0">
         <div className="leading-normal w-1/4 max-sm:w-full">
-          <Logo textColor="#0A2640" svgColor="#0A2640" />
+          <div className="w-[163px] max-sm:w-[90px]">
+            <Logo textColor="#0A2640" svgColor="#0A2640" />
+          </div>
           <p className="font-openSans mt-16 max-sm:mt-8">
             Social media validation business model canvas graphical user
             interface launch party creative facebook iPad twitter.
           </p>
-          <p className="font-openSans mt-10 max-sm:mt-5">All rights reserved.</p>
+          <p className="font-openSans mt-10 max-sm:mt-5">
+            All rights reserved.
+          </p>
         </div>
         <div className="flex gap-24 max-sm:flex-col max-sm:mt-10 max-sm:gap-10">
           {tables.map((table) => (
